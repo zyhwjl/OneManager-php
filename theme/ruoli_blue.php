@@ -106,6 +106,8 @@
         $diskname = getConfig('diskname', $disk);
         if ($diskname=='') $diskname = $disk;
         echo '<a href="'.path_format($_SERVER['base_path'].'/'.$disk).'">'.$diskname.'</a>';
+	echo '<a href="https://aria2.zyhwjl.cn">下载工具</a>';
+	echo '<a href="https://google.zyhwjl.workers.dev/">Google Team Drive</a>';
     } ?>
                 </div>
             </div>
